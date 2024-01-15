@@ -1,6 +1,6 @@
-defmodule BDFParser do
+defmodule BDF do
   @moduledoc """
-  Documentation for `BDFParser`.
+  Documentation for `BDF`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule BDFParser do
 
   ## Examples
 
-      iex> BDFParser.hello()
+      iex> BDF.hello()
       :world
 
   """

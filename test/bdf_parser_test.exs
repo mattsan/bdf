@@ -1,8 +1,8 @@
-defmodule BDFParserTest do
+defmodule BDFTest do
   use ExUnit.Case
-  doctest BDFParser
+  doctest BDF
 
   test "greets the world" do
-    assert BDFParser.hello() == :world
+    assert BDF.hello() == :world
   end
 end

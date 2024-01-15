@@ -1,9 +1,9 @@
-defmodule BDFParser.MixProject do
+defmodule BDF.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :bdf_parser,
+      app: :bdf,
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
