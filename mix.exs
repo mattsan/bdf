@@ -28,6 +28,8 @@ defmodule BDF.MixProject do
 
   defp docs do
     [
+      main: "readme",
+      extras: ~w"README.md",
       groups_for_docs: [
         Guards: & &1[:guard]
       ]
